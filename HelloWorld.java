@@ -7,11 +7,7 @@ class PrimeNumberDemo
       int n;
       int status = 1;
       int num = 3;
-      //For capturing the value of n
-      Scanner scanner = new Scanner(System.in);
-      System.out.println("Enter the value of n:");
-      //The entered value is stored in the var n
-      n = scanner.nextInt();
+      n = 20;
       if (n >= 1)
       {
          System.out.println("First "+n+" prime numbers are:");
