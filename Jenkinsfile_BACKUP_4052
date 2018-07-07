@@ -1,0 +1,20 @@
+pipeline {
+  agent any
+  stages {
+    stage('compile') {
+      steps {
+        bat 'hostname'
+      }
+    }
+    stage('test') {
+      steps {
+        bat 'ipconfig'
+      }
+    }
+  }
+}
+<<<<<<< HEAD
+pleaase fuck yu
+=======
+what is:aaar 
+>>>>>>> r1
